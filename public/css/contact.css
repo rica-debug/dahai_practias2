@@ -1,0 +1,215 @@
+.home {
+  padding-top: 248px;
+}
+.home .main .banner {
+  width: 100%;
+  position: relative;
+}
+.home .main .banner img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.home .main .banner p {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 80px;
+  font-family: "ExoSoft-Bold";
+  text-transform: uppercase;
+}
+.home .main .section {
+  max-width: 1000px;
+  margin: 4vw auto;
+  background: #E49D12;
+  padding: 4vw 4vw 10vw 4vw;
+}
+.home .main .section .t {
+  color: #202020;
+  font-size: 44px;
+  text-transform: uppercase;
+}
+.home .main .section .des {
+  color: #202020;
+  font-size: 18px;
+  margin: 1.5vw 0;
+}
+.home .main .section .phone {
+  color: #878787;
+  font-size: 18px;
+}
+.home .main .section .t2 {
+  margin: 1vw 0 1.5vw 0;
+  color: #202020;
+  font-size: 18px;
+}
+.home .main .section .icons {
+  display: flex;
+}
+.home .main .section .icons a {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  background: #202020;
+  margin-right: 15px;
+}
+.home .main .form {
+  width: 800px;
+  padding: 4vw;
+  border: 4px solid #E49D12;
+  background: #FFF;
+  margin: 0 auto 4vw auto;
+  margin-top: -10vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.home .main .form .item {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.home .main .form .item input, .home .main .form .item textarea {
+  border: 1px solid #EDEDED;
+  background: rgba(255, 255, 255, 0);
+  width: 100%;
+  padding: 15px 0;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.13);
+  font-size: 18px;
+  color: #878787;
+  text-indent: 20px;
+}
+.home .main .form .item input::placeholder, .home .main .form .item textarea::placeholder {
+  color: #878787;
+  font-family: Arial, Microsoft YaHei, sans-serif;
+}
+.home .main .form .item textarea {
+  height: 120px;
+  resize: none;
+}
+.home .main .form .items {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.home .main .form .items .item {
+  width: 48%;
+}
+.home .main .form .tip {
+  width: 100%;
+  text-align: right;
+  color: #B2B2B2;
+  font-size: 14px;
+}
+.home .main .form .notice {
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+}
+.home .main .form .notice p {
+  color: #646464;
+}
+.home .main .form .notice a {
+  color: #E49D12;
+  text-decoration: underline;
+  text-transform: uppercase;
+  margin: 0 5px;
+}
+.home .main .form .agree {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
+.home .main .form .agree .chose {
+  width: 24px;
+  height: 24px;
+  border: 1px solid #EDEDED;
+  background: #FFF;
+  box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.13);
+  cursor: pointer;
+  transition: all 600ms;
+}
+.home .main .form .agree .checked {
+  background: #E49D12;
+  border-color: #E49D12;
+}
+.home .main .form .agree p {
+  color: #878787;
+  font-size: 18px;
+  width: calc(98% - 24px);
+}
+.home .main .form .submit {
+  display: flex;
+  align-items: center;
+  width: 120px;
+  justify-content: center;
+  background: #E49D12;
+  padding: 15px 0;
+  margin-top: 40px;
+  cursor: pointer;
+}
+.home .main .form .submit p {
+  color: #202020;
+  font-size: 18px;
+  margin-right: 10px;
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 60px;
+  }
+  .home .main .banner img {
+    height: 420px;
+  }
+  .home .main .banner p {
+    font-size: 36px;
+  }
+  .home .main .section {
+    max-width: 80%;
+    padding: 20px 5%;
+    margin: 20px auto;
+  }
+  .home .main .section .t {
+    font-size: 24px;
+  }
+  .home .main .section .des {
+    font-size: 16px;
+    margin: 15px 0;
+  }
+  .home .main .section .phone {
+    font-size: 16px;
+  }
+  .home .main .section .t2 {
+    margin: 15px 0 20px 0;
+  }
+  .home .main .section .icons {
+    justify-content: center;
+  }
+  .home .main .form {
+    width: 80%;
+    padding: 20px 5%;
+    margin: 20px auto;
+    border: 2px solid #E49D12;
+  }
+  .home .main .form .notice {
+    flex-wrap: wrap;
+  }
+  .home .main .form .agree {
+    align-items: flex-start;
+  }
+  .home .main .form .agree .chose {
+    margin-top: 5px;
+  }
+  .home .main .form .submit {
+    margin-top: 20px;
+  }
+}
+
+/*# sourceMappingURL=contact.css.map */

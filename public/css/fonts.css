@@ -1,0 +1,21 @@
+@font-face {
+    font-family: 'ExoSoft-Bold';
+    src:url("ExoSoft-Bold.woff");
+}
+@font-face {
+    font-family: 'ExoSoft-Light';
+    src:url("ExoSoft-Light.woff");
+}
+@font-face {
+    font-family: 'ExoSoft-Medium';
+    src:url("ExoSoft-Medium.woff");
+}
+@font-face {
+    font-family: 'ExoSoft-Regular';
+    src:url("ExoSoft-Regular.woff");
+}
+
+@font-face {
+    font-family: 'ExoSoft-SemiBold';
+    src:url("ExoSoft-SemiBold.woff");
+}

@@ -1,0 +1,57 @@
+.home {
+  padding-top: 248px;
+}
+.home .main .section {
+  max-width: 1368px;
+  margin: 5vw auto;
+}
+.home .main .section .t {
+  color: #333;
+  font-size: 45px;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.home .main .section .pic {
+  margin: 2vw auto;
+}
+.home .main .section .pic img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+}
+.home .main .section .list .box {
+  margin-bottom: 2vw;
+}
+.home .main .section .list .box a {
+  display: block;
+  color: #50878C;
+  font-family: "ExoSoft-Regular";
+  margin-top: 5px;
+  transition: all 600ms;
+}
+.home .main .section .list .box a:hover {
+  text-decoration: underline;
+  color: #E49D12;
+}
+@media screen and (max-width: 1400px) {
+  .home .main .section {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 60px;
+  }
+  .home .main .section .t {
+    font-size: 24px;
+  }
+  .home .main .section .pic img {
+    height: 200px;
+  }
+  .home .main .section .list .box {
+    margin-bottom: 20px;
+  }
+}
+
+/*# sourceMappingURL=download.css.map */

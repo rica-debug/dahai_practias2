@@ -1,0 +1,403 @@
+.home {
+  padding-top: 248px;
+}
+.home .main {
+  margin: 3vw auto;
+}
+.home .main .section1 {
+  max-width: 1368px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home .main .section1 .pic {
+  width: 510px;
+  height: 540px;
+  border: 1px solid #b2b2b2;
+  box-shadow: 0 3px 15px rgba(0, 0, 0, 0.08);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.home .main .section1 .pic img {
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+  display: block;
+}
+.home .main .section1 .text {
+  width: calc(95% - 510px);
+}
+.home .main .section1 .text .name {
+  border-top: 1px solid #707070;
+  font-size: 45px;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 2vw;
+}
+.home .main .section1 .text .tag {
+  color: #ED622F;
+  font-family: "ExoSoft-Regular";
+  text-transform: uppercase;
+  font-size: 64px;
+}
+.home .main .section1 .text a {
+  background: #E49D12;
+  color: #202020;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 600ms;
+  width: 160px;
+  justify-content: center;
+  margin-top: 6vw;
+  padding: 10px 0;
+}
+.home .main .section1 .text a:hover {
+  background-color: #d6ab00;
+  box-shadow: 0 20px 25px -12px rgba(236, 188, 0, 0.6), 0 10px 25px -12px rgba(0, 0, 0, 0.3);
+}
+.home .main .section2 {
+  background: #EDEDED;
+  margin: 3vw auto;
+  position: sticky;
+  top: 188px;
+  left: 0;
+  z-index: 10;
+}
+.home .main .section2 .tabs {
+  max-width: 1368px;
+  margin: 0 auto;
+  display: flex;
+}
+.home .main .section2 .tabs .item {
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  color: #333;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  cursor: pointer;
+}
+.home .main .section2 .tabs .active {
+  font-weight: bold;
+  border-bottom: 2px solid #E49D12;
+  background-color: #fff;
+}
+.home .main .pro_info {
+  max-width: 1368px;
+  margin: 6vw auto;
+}
+.home .main .pro_info .t {
+  color: #333;
+  font-family: "ExoSoft-Regular";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home .main .pro_info .des {
+  color: #333;
+  margin-top: 15px;
+}
+.home .main .pro_info .des p {
+  font-family: "ExoSoft-Regular";
+  font-size: 18px;
+}
+.home .main .tech {
+  background: #EDEDED;
+  padding: 60px 0;
+}
+.home .main .tech .nr {
+  max-width: 1368px;
+  margin: 0 auto;
+}
+.home .main .tech .nr .t {
+  color: #333;
+  font-family: "ExoSoft-Regular";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home .main .tech .nr .types {
+  display: flex;
+  margin: 2vw 0;
+}
+.home .main .tech .nr .types .it {
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  color: #333;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  cursor: pointer;
+  transition: all 100ms;
+}
+.home .main .tech .nr .types .active {
+  font-weight: bold;
+  border-bottom: 2px solid #E49D12;
+  background-color: #fff;
+}
+.home .main .tech .nr .tables {
+  width: 48%;
+}
+.home .main .tech .nr .tables .table {
+  display: none;
+}
+.home .main .tech .nr .tables .table .product--properties-table {
+  margin-top: 3.125rem;
+  width: 100%;
+  border-collapse: separate;
+  border-spacing: 1px;
+}
+.home .main .tech .nr .tables .table .product--properties-table .product--properties-label {
+  font-size: 0.875rem;
+}
+.home .main .tech .nr .tables .table .product--properties-table td {
+  padding: 0.3125rem 0.625rem 0.3125rem 0.625rem;
+  border-bottom: 1px solid #707070;
+}
+.home .main .tech .nr .tables .show {
+  display: block;
+}
+.home .main .downloads {
+  max-width: 1368px;
+  margin: 6vw auto;
+}
+.home .main .downloads .t {
+  color: #333;
+  font-family: "ExoSoft-Regular";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home .main .downloads .types {
+  display: flex;
+  margin: 2vw 0;
+}
+.home .main .downloads .types .it {
+  padding: 0.625rem 0.625rem 0.625rem 0.625rem;
+  color: #333;
+  font-size: 0.875rem;
+  background-color: #ededed;
+  display: inline-block;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.home .main .downloads .types .active {
+  background: #E49D12;
+  font-weight: bolder;
+}
+.home .main .downloads .nr .list {
+  display: flex;
+  display: none;
+  justify-content: space-between;
+}
+.home .main .downloads .nr .list a {
+  display: flex;
+  width: 44%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.1);
+  text-transform: uppercase;
+  border: 2px solid transparent;
+  padding: 10px 2%;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 600ms;
+}
+.home .main .downloads .nr .list a p {
+  color: #000000;
+}
+.home .main .downloads .nr .list a .icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  border-radius: 8px;
+  background: #E49D12;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home .main .downloads .nr .list a .icon img {
+  max-width: 90%;
+  max-height: 90%;
+  display: block;
+  object-fit: contain;
+}
+.home .main .downloads .nr .list a:hover {
+  font-weight: bold;
+  border: 2px solid #E49D12;
+}
+.home .main .downloads .nr .show {
+  display: flex;
+}
+.home .main .related {
+  max-width: 1368px;
+  margin: 6vw auto;
+}
+.home .main .related .t {
+  color: #333;
+  font-family: "ExoSoft-Regular";
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.home .main .related .nr {
+  display: flex;
+  justify-content: space-between;
+  margin: 2vw 0;
+}
+.home .main .related .nr a {
+  width: 48%;
+  border: 2px solid #ededed;
+  color: black;
+  display: flex;
+}
+.home .main .related .nr a .pic {
+  width: 30%;
+}
+.home .main .related .nr a .pic img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.home .main .related .nr a .text {
+  width: 62%;
+  margin-left: 5%;
+}
+.home .main .related .nr a .text .pt {
+  font-size: 1.25rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin: 1.5rem 0 1rem 0;
+}
+.home .main .related .nr a .text .tag {
+  text-transform: uppercase;
+  color: #646464;
+  margin-bottom: 0.46875rem;
+  font-size: 0.875rem;
+}
+.home .main .related .nr a .text .des {
+  font-size: 0.75rem;
+  color: #333;
+  line-height: 1.1rem;
+}
+.home .main .related .nr a:hover {
+  border-color: #E49D12;
+}
+@media screen and (max-width: 1400px) {
+  .home .main .section1 {
+    max-width: 95%;
+  }
+  .home .main .section2 .tabs {
+    max-width: 95%;
+  }
+  .home .main .pro_info, .home .main .downloads, .home .main .related {
+    max-width: 95%;
+  }
+  .home .main .tech .nr {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 60px;
+  }
+  .home .main .section1 {
+    flex-direction: column;
+  }
+  .home .main .section1 .pic {
+    width: 100%;
+    height: 300px;
+  }
+  .home .main .section1 .text {
+    width: 100%;
+    margin-top: 15px;
+  }
+  .home .main .section1 .text .name {
+    font-size: 24px;
+  }
+  .home .main .section1 .text .tag {
+    font-size: 32px;
+  }
+  .home .main .section2 {
+    margin: 30px auto;
+    top: 60px;
+  }
+  .home .main .section2 .tabs {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-y: scroll;
+  }
+  .home .main .section2 .tabs .item {
+    display: inline-block;
+  }
+  .home .main .pro_info {
+    margin: 30px auto;
+  }
+  .home .main .pro_info .t {
+    font-size: 24px;
+  }
+  .home .main .tech {
+    padding: 30px 0;
+  }
+  .home .main .tech .nr .t {
+    font-size: 24px;
+  }
+  .home .main .tech .nr .types {
+    width: 100%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow-y: scroll;
+  }
+  .home .main .tech .nr .types .it {
+    display: inline-block;
+  }
+  .home .main .tech .nr .tables {
+    width: 100%;
+  }
+  .home .main .tech .nr .tables .table .product--properties-table {
+    margin-top: 15px;
+  }
+  .home .main .downloads {
+    margin: 30px auto;
+  }
+  .home .main .downloads .t {
+    font-size: 24px;
+  }
+  .home .main .downloads .types {
+    margin: 15px 0;
+  }
+  .home .main .downloads .nr .list {
+    flex-direction: column;
+  }
+  .home .main .downloads .nr .list a {
+    width: 95%;
+    padding: 10px 2.5%;
+    margin-bottom: 10px;
+  }
+  .home .main .related {
+    margin: 30px auto;
+  }
+  .home .main .related .t {
+    font-size: 24px;
+  }
+  .home .main .related .nr {
+    margin: 20px 0;
+    flex-direction: column;
+  }
+  .home .main .related .nr a {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .home .main .related .nr a .pic {
+    width: 45%;
+  }
+  .home .main .related .nr a .text {
+    margin-left: 10px;
+  }
+  .home .main .related .nr a .text .pt {
+    margin: 10px 0 5px 0;
+    font-size: 16px;
+  }
+}
+
+/*# sourceMappingURL=proinfo.css.map */

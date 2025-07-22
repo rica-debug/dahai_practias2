@@ -1,0 +1,265 @@
+.home {
+  padding-top: 189px;
+}
+.home .main {
+  width: 100%;
+}
+.home .main .banner {
+  width: 100%;
+  position: relative;
+}
+.home .main .banner img {
+  width: 100%;
+  display: block;
+  object-fit: cover;
+  max-height: 650px;
+}
+.home .main .banner p {
+  position: absolute;
+  left: 0;
+  text-align: center;
+  width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  color: white;
+  font-size: 80px;
+  font-family: "ExoSoft-Bold";
+  text-transform: uppercase;
+}
+.home .main .section1 {
+  max-width: 1368px;
+  margin: 3vw auto 6vw auto;
+}
+.home .main .section1 .t span {
+  font-size: 60px;
+  font-family: "ExoSoft-Bold";
+  text-transform: uppercase;
+}
+.home .main .section1 .t span:nth-child(1) {
+  color: #B2B2B2;
+}
+.home .main .section1 .t span:nth-child(2) {
+  color: #E49D12;
+}
+.home .main .section1 .t span:nth-child(3) {
+  color: #646464;
+}
+.home .main .section1 .des {
+  font-size: 20px;
+  font-family: "ExoSoft-Light";
+  margin: 2vw 0;
+  line-height: 1.5;
+}
+.home .main .section1 .map {
+  width: 100%;
+}
+.home .main .section1 .map .p img {
+  width: 100%;
+  object-fit: cover;
+}
+.home .main .section1 .map a {
+  display: inline-block;
+  background: #E49D12;
+  padding: 18px 24px;
+  color: #202020;
+  font-size: 18px;
+  transition: all 600ms;
+}
+.home .main .section1 .map a:hover {
+  background-color: #d6ab00;
+  box-shadow: 0 20px 25px -12px rgba(236, 188, 0, 0.6), 0 10px 25px -12px rgba(0, 0, 0, 0.3);
+}
+.home .main .goto {
+  max-width: 1368px;
+  margin: 10vw auto;
+  display: flex;
+  justify-content: space-between;
+}
+.home .main .goto .l {
+  width: 34%;
+  border: 4px solid #E49D12;
+  background: #FFF;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 3%;
+  position: relative;
+}
+.home .main .goto .l p {
+  color: #202020;
+  font-size: 18px;
+  margin-bottom: 15px;
+}
+.home .main .goto .l a {
+  position: absolute;
+  left: 7%;
+  display: inline-block;
+  padding: 16px 25px;
+  background: #E49D12;
+  color: #202020;
+  bottom: -30px;
+}
+.home .main .goto .r {
+  width: 60%;
+  background: #E49D12;
+  padding: 40px 0;
+}
+.home .main .goto .r p {
+  width: 90%;
+  margin: 0 auto;
+  font-size: 46px;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.home .main .section2 {
+  max-width: 1368px;
+  margin: 3vw auto;
+}
+.home .main .section2 .box {
+  padding-bottom: 100px;
+}
+.home .main .section2 .box .imageWithTextOverlapping {
+  background-size: 57% auto;
+  padding: 0 0 0 51%;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+.home .main .section2 .box .imageWithTextOverlapping .contentPart {
+  background-color: #fff;
+  border: 4px solid #E49D12;
+  padding: 4rem 2rem 0;
+}
+.home .main .section2 .box .imageWithTextOverlapping .contentPart .t1 {
+  font-size: 20px;
+  font-family: "ExoSoft-Bold";
+  color: #E49D12;
+  margin-bottom: 1rem;
+  text-transform: uppercase;
+}
+.home .main .section2 .box .imageWithTextOverlapping .contentPart .t2 {
+  font-size: 50px;
+  font-family: "ExoSoft-SemiBold";
+  text-transform: uppercase;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+}
+.home .main .section2 .box .imageWithTextOverlapping .contentPart .des {
+  font-size: 20px;
+  margin-bottom: 4rem;
+}
+.home .main .section2 .box .imageWithTextOverlapping .contentPart .des p {
+  font-family: "ExoSoft-Light";
+  margin-top: 30px;
+}
+.home .main .section2 .box .image-right {
+  background-position: right 0;
+  padding: 0 51% 0 0;
+}
+.home .main .section3 {
+  position: relative;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-image: url("../images/cbg.jpg");
+  height: 568px;
+}
+.home .main .section3 .content {
+  position: absolute;
+  left: 0;
+  bottom: 20%;
+  width: 100%;
+}
+.home .main .section3 .content .box {
+  max-width: 1368px;
+  margin: 0 auto;
+}
+.home .main .section3 .content .box .t {
+  color: white;
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+  font: normal 20px/25px "ExoSoft-Bold", sans-serif;
+}
+.home .main .section3 .content .box .t2 {
+  font: normal 50px/52px "ExoSoft-SemiBold", sans-serif;
+  margin-bottom: 1.5rem;
+  text-transform: uppercase;
+  color: white;
+}
+.home .main .section3 .content .box a {
+  background: #E49D12;
+  color: #202020;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  font: normal 18px/25px "ExoSoft-Bold", sans-serif;
+  letter-spacing: 0.3px;
+  text-transform: uppercase;
+  transition: all 0.3s;
+}
+.home .main .section3 .content .box a:hover {
+  background-color: #d6ab00;
+  box-shadow: 0 20px 25px -12px rgba(236, 188, 0, 0.6), 0 10px 25px -12px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 1400px) {
+  .home .main .section1 {
+    max-width: 95%;
+  }
+  .home .main .section2 {
+    max-width: 95%;
+  }
+  .home .main .section3 .content .box {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 60px;
+  }
+  .home .main .banner img {
+    height: 420px;
+  }
+  .home .main .banner p {
+    font-size: 36px;
+  }
+  .home .main .section1 {
+    margin: 30px auto;
+  }
+  .home .main .section1 .t span {
+    font-size: 30px;
+  }
+  .home .main .section1 .des {
+    font-size: 18px;
+    margin: 20px 0;
+  }
+  .home .main .section2 .box {
+    padding-bottom: 30px;
+  }
+  .home .main .section2 .box .imageWithTextOverlapping {
+    background-size: 100% auto;
+    padding-top: 200px;
+    padding-left: 1.5rem;
+  }
+  .home .main .section2 .box .imageWithTextOverlapping .contentPart {
+    padding: 1.5rem 1.5rem 0;
+  }
+  .home .main .section2 .box .imageWithTextOverlapping .contentPart .t1 {
+    margin-bottom: 10px;
+  }
+  .home .main .section2 .box .imageWithTextOverlapping .contentPart .t2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+  .home .main .section2 .box .imageWithTextOverlapping .contentPart .des {
+    font-size: 18px;
+  }
+  .home .main .section2 .box .image-right {
+    padding-left: 0;
+    padding-right: 1.5rem;
+  }
+  .home .main .section3 .content .box .t2 {
+    font-size: 36px;
+    line-height: 2.5rem;
+  }
+}
+
+/*# sourceMappingURL=company.css.map */

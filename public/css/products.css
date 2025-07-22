@@ -1,0 +1,151 @@
+.home {
+  padding-top: 248px;
+}
+.home .main {
+  max-width: 1368px;
+  margin: 3vw auto;
+}
+.home .main .t {
+  color: #333;
+  font-size: 45px;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+}
+.home .main .t2 {
+  color: #333;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+}
+.home .main .des {
+  margin: 2vw 0;
+  color: #333;
+  font-family: "ExoSoft-Regular";
+}
+.home .main .dt {
+  background: #EDEDED;
+  padding: 20px;
+  color: #333;
+  font-size: 30px;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+}
+.home .main .list {
+  margin: 3vw auto;
+  display: flex;
+  flex-wrap: wrap;
+}
+.home .main .list a {
+  display: block;
+  width: 31%;
+  border: 2px solid #EDEDED;
+  margin-left: 1.5%;
+  margin-bottom: 20px;
+}
+.home .main .list a .pic {
+  width: 90%;
+  margin: 0 auto;
+  height: 240px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #EDEDED;
+  overflow: hidden;
+}
+.home .main .list a .pic img {
+  max-width: 100%;
+  max-height: 90%;
+  object-fit: contain;
+  display: block;
+  transition: all 600ms;
+}
+.home .main .list a .txt {
+  padding: 20px;
+}
+.home .main .list a .txt .name {
+  color: #333;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+      height: 44px;
+    line-height: 22px;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+.home .main .list a .txt .tag {
+  color: #ED622F;
+  font-size: 31px;
+  font-family: "ExoSoft-Regular";
+  height: 74px;
+line-height: 37px;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+overflow: hidden;
+text-overflow: ellipsis;
+-webkit-line-clamp: 2;
+}
+.home .main .list a .txt .btn {
+  float: right;
+  background: #E49D12;
+  color: #202020;
+  padding: 1rem 1.5rem;
+  display: inline-block;
+  margin: 0.3vw 0 2vw 0;
+  font-size: 14px;
+  font-family: "ExoSoft-Regular";
+  font-weight: 600;
+  text-transform: uppercase;
+  transition: all 600ms;
+}
+.home .main .list a:hover {
+  border-color: #E49D12;
+}
+.home .main .list a:hover .pic img {
+  transform: scale(1.05);
+}
+.home .main .list a:hover .txt .name {
+  text-decoration: underline;
+}
+.home .main .list a:hover .txt .btn {
+  background-color: #d6ab00;
+  box-shadow: 0 20px 25px -12px rgba(236, 188, 0, 0.6), 0 10px 25px -12px rgba(0, 0, 0, 0.3);
+}
+@media screen and (max-width: 1400px) {
+  .home .main {
+    max-width: 95%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  .home {
+    padding-top: 60px;
+  }
+  .home .main .t {
+    font-size: 24px;
+  }
+  .home .main .t2 {
+    font-size: 18px;
+  }
+  .home .main .des {
+    margin: 15px 0;
+  }
+  .home .main .dt {
+    padding: 10px;
+    font-size: 20px;
+  }
+  .home .main .list a {
+    width: calc(100% - 4px);
+    margin-left: 0;
+  }
+  .home .main .list a .txt .btn {
+    margin: 20px 0 10px 0;
+  }
+}
+
+/*# sourceMappingURL=products.css.map */
