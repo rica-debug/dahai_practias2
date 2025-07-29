@@ -47,3 +47,8 @@ $('.menuList .item a').click(function () {
 
 
 
+$(document).ready(function() {
+    $('#navbox').on('click', function() {
+        $('.menuList').toggleClass('open');
+    });
+});

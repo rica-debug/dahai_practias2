@@ -2,11 +2,12 @@
 
 use Illuminate\Support\Facades\Route;
 
+// Página principal
 Route::get('/', function () {
     return view('index');
-});
+})->name('index');
 
-// Basic pages
+// Páginas básicas
 Route::view('company', 'company')->name('company');
 Route::view('career', 'career')->name('career');
 Route::view('contact', 'contact')->name('contact');
@@ -15,10 +16,25 @@ Route::view('join', 'join')->name('join');
 Route::view('privacy', 'privacy')->name('privacy');
 Route::view('download', 'download')->name('download');
 
-// Product routes
-Route::view('products', 'products')->name('products');
-Route::view('products/ev-charger', 'products-EVCharger')->name('products.evcharger');
-Route::view('products/inverters', 'products-Inverters')->name('products.inverters');
-Route::view('products/solar-modules', 'products-SolarModules')->name('products.solar-modules');
-Route::view('products/storage-solutions', 'products-StorageSolutions')->name('products.storage-solutions');
-
+// Rutas de productos
+Route::prefix('products')->group(function () {
+    Route::get('/', function () {
+        return view('products');
+    })->name('products');
+    
+    Route::get('/ev-charger', function () {
+        return view('products-EVCharger');
+    })->name('products.evcharger');
+    
+    Route::get('/inverters', function () {
+        return view('products-Inverters');
+    })->name('products.inverters');
+    
+    Route::get('/solar-modules', function () {
+        return view('products-SolarModules');
+    })->name('products.solar-modules');
+    
+    Route::get('/storage-solutions', function () {
+        return view('products-StorageSolutions');
+    })->name('products.storage-solutions');
+});

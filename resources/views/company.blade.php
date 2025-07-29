@@ -1,5 +1,7 @@
-<!DOCTYPE html>
-<html lang="zh">
+
+@extends('layouts.app')
+
+@section('title', 'Ocupación')
 <head>
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -15,57 +17,6 @@
 <body>
 <div class="home">
     <script src="https://res.zvo.cn/translate/translate.js"></script>
-<x-header/>
-
-<a href="https://it.dahaisolar.com/" style="top:225%">
-  IT 
-</a>
-
-<a href="https://fr.dahaisolar.com/" style="top:350%">
-  FR 
-</a>
-
-<a href="https://cn.dahaisolar.com/" style="top:475%">
-  中文 
-</a>
-
-<a href="index.html" style="top:600%">
-  ES 
-</a>
-
-<a href="https://ro.dahaisolar.com/" style="top:725%">
-  RO 
-</a>
-
-<a href="https://nl.dahaisolar.com/" style="top:850%">
-  NL
-</a>
-
-<a href="https://www.dahaisolar.com/?lang=vn" style="top:975%">VN</a>
-
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <div class="pheader">
-        <div class="menu">
-            <a href="index.html" target="_self" class="animated fadeInLeft">
-                <img src="uploads/image/20240117/65a73f44af937.svg" alt="">
-            </a>
-            <div class="search">
-                <input type="text" placeholder="Search">
-                <div class="icon" id="phone_search">
-                    <img src="images/search.png" alt="">
-                </div>
-            </div>
-            <div class="navbox">
-                <div class="line"></div>
-                <div class="line"></div>
-                <div class="line"></div>
-            </div>
-        </div>
-    </div>
     <div class="menuList">
         <div class="lan animated fadeInUp">
             <a href="index.html" class="active">ES</a>
@@ -148,9 +99,6 @@
             <div class="des">
             Como líder mundial en la fabricación de células fotovoltaicas, entendemos que cada cliente es único, por lo que tenemos en cuenta todos los factores únicos que más le importan, como el presupuesto y los objetivos de producción de energía, mientras nos esforzamos por ayudarlo a lograr un rápido retorno de la inversión.            </div>
             <div class="map">
-                <div class="p">
-                    <img src="company.html" alt="">
-                </div>
                 <!--<a href="">All branches worldwide</a>-->
             </div>
         </div>
@@ -182,9 +130,6 @@
                 </div>
             </div>
         </div>
-
-
-        <x-footer/>
 
 
 </div>
