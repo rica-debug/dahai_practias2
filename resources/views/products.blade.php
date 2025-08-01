@@ -65,7 +65,7 @@
         </div>
     </div>
 
-    <div class="main">
+    <div class="main mt-0">
         <div class="t">Módulos fotovoltaicos</div>
         <div class="t2">Los paneles solares son el corazón de los sistemas fotovoltaicos.</div>
         <div class="des">
@@ -77,17 +77,18 @@
 
         <div class="list">
             @foreach($productos as $producto)
-                <a href="#">
-                    <div class="pic">
-                        <img src="{{ $producto->imagen ? asset('storage/' . $producto->imagen) : asset('uploads/image/default.png') }}" alt="{{ $producto->nombre }}">
-                    </div>
-                    <div class="txt">
-                        <p class="name">{{ $producto->nombre }}</p>
-                        <p class="tag">{{ number_format($producto->precio, 2) }} USD</p>
-                        <div class="btn">Disponible: {{ $producto->cantidad }}</div>
-                    </div>
-                </a>
-            @endforeach
+    <a href="#">
+        <div class="pic">
+            <img src="{{ asset($producto->imagen) }}" alt="{{ $producto->nombre }}">
+        </div>
+        <div class="txt">
+            <p class="name">{{ $producto->nombre }}</p>
+            <p class="tag">{{ number_format($producto->precio, 2) }} USD</p>
+            <div class="btn">Disponible: {{ $producto->cantidad }}</div>
+        </div>
+    </a>
+@endforeach
+
         </div>
     </div>
 </div>

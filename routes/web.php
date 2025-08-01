@@ -43,3 +43,4 @@ Route::prefix('products')->group(function () {
 // Ruta dinámica que usa base de datos
 Route::get('/productos', [ProductoController::class, 'index'])->name('productos');
 Route::get('/products', [ProductoController::class, 'index'])->name('products');
+Route::get('/producto/{id}', [ProductoController::class, 'show'])->name('producto.show');
