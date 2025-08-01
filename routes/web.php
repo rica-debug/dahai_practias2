@@ -19,27 +19,13 @@ Route::view('download', 'download')->name('download');
 
 // Rutas de productos estáticos
 Route::prefix('products')->group(function () {
-    Route::get('/', function () {
-        return view('products');
-    })->name('products');
-    
-    Route::get('/ev-charger', function () {
-        return view('products-EVCharger');
-    })->name('products.evcharger');
-    
-    Route::get('/inverters', function () {
-        return view('products-Inverters');
-    })->name('products.inverters');
-    
-    Route::get('/solar-modules', function () {
-        return view('products-SolarModules');
-    })->name('products.solar-modules');
-    
-    Route::get('/storage-solutions', function () {
-        return view('products-StorageSolutions');
-    })->name('products.storage-solutions');
-});
+    Route::get('/', [ProductoController::class, 'index'])->name('products');
 
+    Route::get('/solar-modules', [ProductoController::class, 'categoriaSolarModules'])->name('products.solar-modules');
+    Route::get('/inverters', [ProductoController::class, 'categoriaInversores'])->name('products.inverters');
+    Route::get('/storage-solutions', [ProductoController::class, 'categoriaBaterias'])->name('products.storage-solutions');
+    Route::get('/ev-charger', [ProductoController::class, 'categoriaPilas'])->name('products.evcharger');
+});
 // Ruta dinámica que usa base de datos
 Route::get('/productos', [ProductoController::class, 'index'])->name('productos');
 Route::get('/products', [ProductoController::class, 'index'])->name('products');

@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title', 'Productos')
+@section('title', 'Productos por categoría')
 
 @push('styles')
     <link rel="stylesheet" href="{{ asset('css/animate.min.css') }}">
@@ -54,7 +54,7 @@
             </div>
         </div>
         <div class="item">
-            <a class="animated fadeInUp" href="#">
+            <a class="animated fadeInUp" href="{{ route('products') }}">
                 <p>Producto</p>
             </a>
         </div>
@@ -66,31 +66,27 @@
     </div>
 
     <div class="main mt-0">
-        <div class="t">Módulos fotovoltaicos</div>
-        <div class="t2">Los paneles solares son el corazón de los sistemas fotovoltaicos.</div>
-        <div class="des">
-            Ofrecemos una amplia selección de varias categorías de rendimiento y siempre ofrecemos productos de alta calidad a precios justos.
-            Nuestra cartera de productos es una prueba de nuestra experiencia, que incluye módulos eficientes y de alto rendimiento en todos los tamaños, de fabricantes de renombre para satisfacer todas las necesidades.
-        </div>
+        <div class="t2">Productos disponibles en esta categoría</div>
+        {{-- Puedes agregar una descripción si quieres aquí --}}
+        {{-- <div class="des">Descripción opcional de la categoría...</div> --}}
 
         <div class="dt">Filter</div>
 
         <div class="list">
-    
-@foreach($productos as $producto)
-    <a href="{{ route('producto.show', $producto->id) }}">
-        <div class="pic">
-            <img src="{{ asset($producto->imagen) }}" alt="{{ $producto->nombre }}">
-        </div>
-        <div class="txt">
-            <p class="name">{{ $producto->nombre }}</p>
-            <p class="tag">{{ number_format($producto->precio, 2) }} USD</p>
-            <div class="btn">Disponible: {{ $producto->cantidad }}</div>
-        </div>
-    </a>
-@endforeach
-
-
+            @forelse($productos as $producto)
+                <a href="{{ route('producto.show', $producto->id) }}">
+                    <div class="pic">
+                        <img src="{{ asset($producto->imagen) }}" alt="{{ $producto->nombre }}">
+                    </div>
+                    <div class="txt">
+                        <p class="name">{{ $producto->nombre }}</p>
+                        <p class="tag">{{ number_format($producto->precio, 2) }} MXN</p>
+                        <div class="btn">Disponible: {{ $producto->cantidad }}</div>
+                    </div>
+                </a>
+            @empty
+                <p>No hay productos en esta categoría.</p>
+            @endforelse
         </div>
     </div>
 </div>
