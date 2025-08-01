@@ -36,7 +36,7 @@
             </a>
             <div class="links">
                 <div class="item">
-                    <a href="javascript:;" class="a1">
+                    <a href="{{ route('index') }}" class="a1">
                         <p>Introduce</p>
                         <img src="{{ asset('images/line.png') }}" alt="">
                     </a>

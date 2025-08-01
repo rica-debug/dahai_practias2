@@ -66,10 +66,9 @@
     </div>
 
     <div class="main mt-0">
-        <div class="t2">Productos disponibles en esta categoría</div>
-        {{-- Puedes agregar una descripción si quieres aquí --}}
-        {{-- <div class="des">Descripción opcional de la categoría...</div> --}}
-
+        <div class="t">Inversor</div>
+        <div class="t2">Eslabón indispensable para conectar la energía original a sus necesidades específicas.</div>
+        <div class="des">La gama de inversores proporcionados por la batería Sea Photovoltaic es adecuada para diversas necesidades. Ofrecemos un inversor en miniatura que se puede utilizar para un "sistema de balcón" con solo uno o dos paneles solares, pero también un inversor trifásico grande adecuado para equipos industriales y las necesidades de las grandes granjas solares. ¿Conectado a la red o fuera de la red? Nuestros expertos podrán brindarle la información correcta y, por supuesto, también le proporcionarán el inversor adecuado para su uso.</div>
         <div class="dt">Filter</div>
 
         <div class="list">

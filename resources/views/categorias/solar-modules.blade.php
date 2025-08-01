@@ -66,10 +66,9 @@
     </div>
 
     <div class="main mt-0">
-        <div class="t2">Productos disponibles en esta categoría</div>
-        {{-- Puedes agregar una descripción si quieres aquí --}}
-        {{-- <div class="des">Descripción opcional de la categoría...</div> --}}
-
+        <div class="t">Módulos fotovoltaicos</div>
+        <div class="t2">Los paneles solares son el corazón de los sistemas fotovoltaicos.</div>
+        <div class="des">Ofrecemos una amplia selección de varias categorías de rendimiento y siempre ofrecemos productos de alta calidad a precios justos. Nuestra cartera de productos es una prueba de nuestra experiencia, que incluye módulos eficientes y de alto rendimiento en todos los tamaños, de fabricantes de renombre para satisfacer todas las necesidades.        </div>
         <div class="dt">Filter</div>
 
         <div class="list">

@@ -66,10 +66,9 @@
     </div>
 
     <div class="main mt-0">
-        <div class="t2">Productos disponibles en esta categoría</div>
-        {{-- Puedes agregar una descripción si quieres aquí --}}
-        {{-- <div class="des">Descripción opcional de la categoría...</div> --}}
-
+        <div class="t">Batería</div>
+        <div class="t2">Perfecciona tu sistema solar para que funcione incluso cuando el sol no brilla.</div>
+        <div class="des">En los últimos años, hemos invertido mucho en el desarrollo de nuestros sistemas de almacenamiento de energía. Nuestros sistemas de batería funcionan bien en términos de eficiencia y seguridad. La facilidad de uso es nuestra principal consideración, por lo que ofrecemos baterías apilables, montadas en la pared, rodantes e incluso portátiles para todos. Cada sistema puede entregar hasta 1 megavatio.</div>
         <div class="dt">Filter</div>
 
         <div class="list">

@@ -66,10 +66,9 @@
     </div>
 
     <div class="main mt-0">
-        <div class="t2">Productos disponibles en esta categoría</div>
-        {{-- Puedes agregar una descripción si quieres aquí --}}
-        {{-- <div class="des">Descripción opcional de la categoría...</div> --}}
-
+        <div class="t">Pila de carga</div>
+        <div class="t2">Aportar su granito de arena al verde</div>
+        <div class="des">Un enfoque innovador y eficiente es conectar su sistema fotovoltaico a un cargador de automóvil eléctrico. De esta manera, ya no tendrá que pagar por cargar su automóvil eléctrico.</div>
         <div class="dt">Filter</div>
 
         <div class="list">
