@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\ProductoController;
 
 // Página principal
 Route::get('/', function () {
@@ -16,7 +17,7 @@ Route::view('join', 'join')->name('join');
 Route::view('privacy', 'privacy')->name('privacy');
 Route::view('download', 'download')->name('download');
 
-// Rutas de productos
+// Rutas de productos estáticos
 Route::prefix('products')->group(function () {
     Route::get('/', function () {
         return view('products');
@@ -38,3 +39,7 @@ Route::prefix('products')->group(function () {
         return view('products-StorageSolutions');
     })->name('products.storage-solutions');
 });
+
+// Ruta dinámica que usa base de datos
+Route::get('/productos', [ProductoController::class, 'index'])->name('productos');
+Route::get('/products', [ProductoController::class, 'index'])->name('products');
